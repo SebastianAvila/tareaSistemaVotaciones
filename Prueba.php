@@ -18,9 +18,9 @@
 </form> 
 
 <? php
-include("coneccionBasedatos.php");
+include("RegistroBaseDeDatos.php");
 
-
+?>  
 
 
     
