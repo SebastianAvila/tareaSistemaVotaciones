@@ -7,7 +7,7 @@
 <?php
 
 // coneccion direta a la base de datos 
-$localhost = " localhost"; //nombre default de la base de datos
+$localhost = "localhost"; //nombre default de la base de datos
 $root = "root"; //nombre default del adminstador 
 $pass = ""; //contraseña (que no  exixste :v ) defaul de la base de datos
 
