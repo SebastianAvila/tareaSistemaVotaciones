@@ -22,6 +22,19 @@
             
         </form>
         </div>
+        
+        <div class="collapse navbar-collapse" id="example-nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            <li><a href="caracteristicasProgramaVotos.html"><span class="subFont"><strong>Características</strong></span></a></li>
+            <li><a href="programadores.html"><span class="subFont"><strong>Nosotros</strong></span></a></li>
+            
+        	
+          </ul>
+          
+
+          <span class="normalFont"><a href="admin.html" class="btn btn-success navbar-right navbar-btn"><strong>Panel Administrativo</strong></a></span>
+        </div>
 
         
 
@@ -41,7 +54,7 @@
 <?php
 
 include("RegistraRespuestas.php");
-include("graficas.php");
+//include("graficas.php");
 
 
 ?>
