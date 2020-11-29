@@ -1,3 +1,5 @@
+/* la clase form es para una forma checa en admin.html que los buttona esta entre un form eso les da forma  */
+
 form{
 
     margin: auto;
@@ -12,15 +14,13 @@ form{
 }
 
 
+
+/* el h1 y h1 son para darle forma a esos mismo  h1 y h2 */
 h2{
 
 margin: auto;
 
 font-size: 100%;
-
-
-
-
 }
 
 h1{
@@ -31,7 +31,7 @@ font-size: 150%;
 
 }
 
-
+/*esto le fa forma a los input osea alo textos */ 
 input{
     
 display: block;
@@ -41,7 +41,7 @@ margin: 30px 0 ;
 font-size: 20px;
 }
 
-
+/*y estos ultimo le de su forma al boton de enviar puedes aplicar el mismo o similares a los botones */
 input[type="submit"]{
 
     background: linear-gradient(rgb(7, 155, 224), rgb(3, 52, 92));

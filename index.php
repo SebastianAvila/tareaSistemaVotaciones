@@ -6,6 +6,8 @@
 
 <body>
     <h1> Seleccione Al Candidato De Su Preferencia</h1> 
+
+    <!--  Aqui esta el vinculo, solo cambia este nombre, por el del css que ocupes  -->
     <link rel="stylesheet" type="text/css" href="estilos.css">
         <div class ="container"> 
         <!--- No cambies esto, es el metodo de envio  --> 
