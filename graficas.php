@@ -1,3 +1,43 @@
+<?php
+
+$admin = $_POST['admin'];
+$password = $_POST['password'];
+
+$correctAdmin = "admin123" ;
+$correctPass = "pass123"; 
+
+if(isset($_POST['ingresar'])){
+
+    if($admin == $correctAdmin  ){
+
+        if($password==$correctPass){
+
+            
+            echo"Bienvenido";
+        }
+    
+        
+    
+    
+        
+    }else{
+    
+    echo "Admin and password Incorrecto";
+    
+    }
+
+}
+
+
+
+
+
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <!--simplemente le da formato a las graficas-->
