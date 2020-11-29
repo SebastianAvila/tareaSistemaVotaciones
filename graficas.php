@@ -64,6 +64,12 @@
               }
               else
               {
+                //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                //Bloque de graficas de PRIN 
+                //Este codigo genera las graficas para poder ver la cantidad de votos 
+
+
                 ///crea una variable que guarda la direccion en slots de la base de datos
                 $sql ="SELECT * FROM tablavotos WHERE voto='PRIN'";
                 ///genera la cantidad que tienen dicho slot
@@ -91,7 +97,13 @@
                   </div>
                   ";
                 }
+                //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
+                //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                
+                //Bloque de graficas de PANA
+                //Este codigo genera las graficas para poder ver la cantidad de votos 
                 $sql ="SELECT * FROM tablavotos WHERE voto='PANA'";
                 $result= mysqli_query($conn, $sql);
 
@@ -103,7 +115,7 @@
                       $PANA++;
                   }
 
-
+                  //Grafica PANA
                   $pana_value= $PANA*10;
 
                   echo "<strong>Votos Al PANA</strong><br>";
@@ -115,7 +127,13 @@
                   </div>
                   ";
                 }
+                //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+                //°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+
+                
+                //Bloque de graficas de PRANDA 
+                //Este codigo genera las graficas para poder ver la cantidad de votos 
                 $sql ="SELECT * FROM tablavotos WHERE voto='PRANDA'";
                 $result= mysqli_query($conn, $sql);
 
@@ -139,7 +157,13 @@
                   </div>
                   ";
                 }
+                 //°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
 
+                 //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+                
+                 
+                //Bloque de graficas del PARTIDO AZUL 
+                //Este codigo genera las graficas para poder ver la cantidad de votos 
                 $sql ="SELECT * FROM tablavotos WHERE voto='PARTIDO AZUL'";
                 $result= mysqli_query($conn, $sql);
 
@@ -163,7 +187,9 @@
                   </div>
                   ";
                 }
-
+              
+                //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+                
                echo "<hr>";
 
                ///se crea una variable que almacenara el toal de datos
