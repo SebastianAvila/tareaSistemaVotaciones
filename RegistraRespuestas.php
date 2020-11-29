@@ -37,19 +37,14 @@ if(isset($_POST['insert'])){
             
             <h3 class="ok"> ¡Registro correcto!  </h3> 
             <?php
-    
         }else{
 
             //de lo contrario manda el error 
             ?> 
             <h3 class="bad">¡Ups ha ocurrido un error con la base de datos !</h3>
            <?php
-    
-            
-            
         }
-    
-        
+     
     }else{
 
         //verifica que los campos esten llenos de no estarlos manda el siguiente mensaje 
@@ -59,9 +54,6 @@ if(isset($_POST['insert'])){
        <?php
 
     }
-
-
-    
 }
 
 
