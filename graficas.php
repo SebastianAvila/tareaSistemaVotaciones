@@ -47,7 +47,7 @@
           <div class="col-sm-12">
             <?php
             ///pide el php de las configuraciones para poder acceder a la base de datos
-              require 'config.php';
+              require 'Conex_BD_Retorna.php';
 
               ///creo las variables por cada partidos (uso nombres similares para no perderme)
               $PRIN=0;
@@ -189,7 +189,7 @@
                 }
               
                 //&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-                
+
                echo "<hr>";
 
                ///se crea una variable que almacenara el toal de datos
