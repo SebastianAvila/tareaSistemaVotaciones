@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-11-2020 a las 21:45:49
+-- Tiempo de generación: 21-01-2021 a las 19:04:26
 -- Versión del servidor: 10.4.16-MariaDB
 -- Versión de PHP: 7.4.12
 
@@ -37,21 +37,11 @@ CREATE TABLE `tablavotos` (
 --
 
 INSERT INTO `tablavotos` (`nombre`, `voto`) VALUES
-('TheSebas1333333', 'op1'),
-('a18016880', 'op1'),
-('4t345', 'op2'),
-('', 'op2'),
-('18016880', 'op1'),
-('jesusaviala@gmail.com325', 'op1'),
-('4t34536346', 'op1'),
-('sd', 'op1'),
-('TheSebas13311|', 'op1'),
-('wdawdasdsef', 'op1'),
-('wefwf', 'op1'),
-('wefwf', 'op1'),
-('pruebabtn3', 'op3'),
-('prueba1 con full datos', 'PRANDA'),
-('uy ', 'PRANDA');
+('Ejemplo 1 ', 'PRIN'),
+('Ejemplo 2', 'PANA'),
+('Ejemplo 3', 'PANA'),
+('Ejemplo 4', 'PRANDA'),
+('Ejemplo 5', 'PARTIDO AZUL');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
