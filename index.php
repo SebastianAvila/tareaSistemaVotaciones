@@ -29,7 +29,7 @@
     <div class="container">
         <h1>f</h1>
         <h1 class="specialHead" >Sistema de votos</h1>
-        <h1 class="specialHead"> Seleccione Al Candidato De Su Preferencia</h1>
+        <h1 class="specialHead"> Seleccione al candidato de su preferencia</h1>
         <!--- No cambies esto, es el metodo de envio  -->
         <form action="" method="POST">
                 <label class="specialHead"> Nombre </label> <br>
