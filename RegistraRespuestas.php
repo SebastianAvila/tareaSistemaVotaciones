@@ -6,7 +6,7 @@
 --> 
 
 <?php
-include("Conex_BD_Envia.php");
+include("conect/Conex_BD_Envia.php");
 
 ?>
 <?php
@@ -31,16 +31,10 @@ if(isset($_POST['insert'])){
         if($query_run){
             //de funcionar notifica que el registro es correcto
             //la clase OK es para el css manda un mensaje en verde 
-            ?>
-            
-            <h3 class="ok"> ¡Registro correcto!  </h3> 
-            <?php
+           
         }else{
 
-            //de lo contrario manda el error 
-            ?> 
-            <h3 class="bad">¡Ups ha ocurrido un error con la base de datos !</h3>
-           <?php
+           
         }
      
     }else{

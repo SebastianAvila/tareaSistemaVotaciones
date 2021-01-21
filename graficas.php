@@ -1,42 +1,3 @@
-<?php
-
-$admin = $_POST['admin'];
-$password = $_POST['password'];
-
-$correctAdmin = "admin123" ;
-$correctPass = "pass123"; 
-
-if(isset($_POST['ingresar'])){
-
-    if($admin == $correctAdmin  ){
-
-        if($password==$correctPass){
-
-            
-            echo"Bienvenido";
-        }
-    
-        
-    
-    
-        
-    }else{
-    
-    echo "Admin and password Incorrecto";
-    
-    }
-
-}
-
-
-
-
-
-
-?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -87,7 +48,8 @@ if(isset($_POST['ingresar'])){
           <div class="col-sm-12">
             <?php
             ///pide el php de las configuraciones para poder acceder a la base de datos
-              require 'Conex_BD_Retorna.php';
+              require 'conect/Conex_BD_Retorna.php';
+
 
               ///creo las variables por cada partidos (uso nombres similares para no perderme)
               $PRIN=0;
@@ -253,6 +215,7 @@ if(isset($_POST['ingresar'])){
                   echo "
                   <div class='text-primary'>
                     <h3 class='normalFont'>Votos : $total </h3>
+                    <a href='index.php'>Regresar</a>
                   </div>
                   ";
                 }
